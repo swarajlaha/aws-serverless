@@ -10,3 +10,5 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - Create Serverless APIs
     - Create Lambda Functions
     - Integrate Lambda with API Gateway
+    
+(Ongoing project...)    
