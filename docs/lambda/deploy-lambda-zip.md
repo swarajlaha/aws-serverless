@@ -14,3 +14,20 @@
 
 ![function-code](https://user-images.githubusercontent.com/26769575/97957350-f245dd00-1dd0-11eb-9b55-80db341ff138.JPG)
 
+9. Now click on **Test** and create a test event.
+10. In **Event Template** select, **API Gateway AWS Proxy**.
+11. In the sample event template, we need to modify the path and query string params.
+12. Modification for name: `"pathParameters": {
+    "name": "Swaraj"
+  }`
+13. Modification for language: `"queryStringParameters": {
+    "lang": "hi",
+    "city": "Bhubaneswar",
+    "country": "India"
+  }`
+14. Give a name to the event and click **Create**.
+15. Now in the Lambda Function page, click **Test** and find the result.
+
+![execution-result](https://user-images.githubusercontent.com/26769575/97958268-e1966680-1dd2-11eb-928f-d58e9b9871ad.JPG)
+
+
