@@ -21,3 +21,8 @@
 - Uploaad the file to S3: `aws s3 cp <zip-file-name> s3://<source-bucket-name>/<target-file-name>`
 
 - Deploy the file uploaded in S3, to Lambda: `aws lambda update-function-code --function-name <function-name> --s3-bucket<bucket-name> --s3-key <name-of-zip-file>.zip --publish`
+
+**Test Lambda Function to trigger S3**
+1. Upload images to the source S3 bucket.
+2. This is trigger the lambda function, which in turn should create the respective compressed images in the destination S3 bucket.
+3. Go to the S3 destination bucket and refresh.
