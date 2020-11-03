@@ -1,0 +1,25 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SAM, the Serverless Framework, CICD &amp; more.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarajlaha/aws-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarajlaha/aws-serverless/issues"
+  },
+  "homepage": "https://github.com/swarajlaha/aws-serverless#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
