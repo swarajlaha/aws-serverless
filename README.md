@@ -23,4 +23,11 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     
 ![serverless-image-resize](https://user-images.githubusercontent.com/26769575/98078048-516e2500-1e97-11eb-9132-e253de3f3a76.png)
 
+3. **AWS API Gateway**
+
+    - Testing API Gateway Endpoint
+    - Configure CORS
+    - Adding Request Validators
+    - Adding Body Mapping Templates
+
 (Ongoing project...)    
