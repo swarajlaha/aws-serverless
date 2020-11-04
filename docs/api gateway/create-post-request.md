@@ -24,3 +24,9 @@
 5. Give: `Resource Name: calculate` `Resource Path: /math/{operation}`, **Enable CORS** and create.
 6. Add a POST method to /{operation}.
 7. **Integration type: Lambda Function** and give the **Lambda Function** name.
+
+**Request Mapping Template**
+
+1. Add following **Mapping Template** in **Integration Request**.
+
+![mapping-template](https://user-images.githubusercontent.com/26769575/98086065-3a81ff80-1ea4-11eb-99bf-a42cfdb7ede9.JPG)
