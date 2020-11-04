@@ -11,3 +11,15 @@
 8. Now, the API Endpoint is ready for testing.
 
 ![api-gateway-create](https://user-images.githubusercontent.com/26769575/98075629-bd9a5a00-1e92-11eb-8f0f-6553b1e5fd1d.JPG)
+
+**Test the API Gateway Endpoint**
+
+1. Provide a **Path name**, **Query Strings Name** like: `lang=en&city=Bbsr&country=India` and click **Test**.
+
+![api-test](https://user-images.githubusercontent.com/26769575/98075957-5df07e80-1e93-11eb-969b-bcfb6b39fadb.JPG)
+ 
+2. Now we'll deploy the API so that we can test from the browser.
+3. Click on **Deploy API**, give a **Deployment Stage** name and **Deploy**.
+4. In the **Stages**, click on **GET**, you'll find the direct URL to the API endpoint.
+
+![api-test-browser](https://user-images.githubusercontent.com/26769575/98076432-406fe480-1e94-11eb-9a99-584bd82ee4ad.JPG)
