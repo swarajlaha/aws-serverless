@@ -38,5 +38,10 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     
 ![api-gateway-create](https://user-images.githubusercontent.com/26769575/98260341-38ee2f80-1fa9-11eb-91a1-300680d4897a.JPG)
 
+4. **AWS DynamoDB**
+
+    - DynamoDB RCU, WCU
+    - Partitions and Indexes
+
 
 (Ongoing project...)    
