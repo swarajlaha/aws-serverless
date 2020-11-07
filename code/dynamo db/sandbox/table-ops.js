@@ -6,14 +6,14 @@ const dynamodb = new AWS.DynamoDB();
 /**
  * List tables in console.
  */
-/* dynamodb.listTables({}, (err, data)=>{
+/*  dynamodb.listTables({}, (err, data)=>{
     if(err) {
         console.log(err);
     } else {
         console.log(data);
     }
 }); 
-*/
+ */
 
 /**
  * Describe tables in console.
@@ -26,8 +26,7 @@ const dynamodb = new AWS.DynamoDB();
         } else {
             console.log(JSON.stringify(data, null, 2));
         }
-    });
- */
+    }); */
 
 /**
  * Create table.
@@ -64,17 +63,32 @@ const dynamodb = new AWS.DynamoDB();
     } else {
         console.log(JSON.stringify(data, null, 2));
     }
-}); */
+}); 
+*/
 
 /**
  * Update table.
  */
-dynamodb.updateTable({
+/* dynamodb.updateTable({
     TableName: "table-created-using-sdk",
     ProvisionedThroughput: {
         ReadCapacityUnits: 2,
         WriteCapacityUnits: 1
     }
+}, (err, data) => {
+    if(err) {
+        console.log(err);
+    } else {
+        console.log(JSON.stringify(data, null, 2));
+    }
+}); 
+*/
+
+/**
+ * Delete table.
+ */
+dynamodb.deleteTable({
+    TableName: "table-created-using-sdk"
 }, (err, data) => {
     if(err) {
         console.log(err);
