@@ -12,7 +12,8 @@ const dynamodb = new AWS.DynamoDB();
     } else {
         console.log(data);
     }
-}); */
+}); 
+*/
 
 /**
  * Describe tables in console.
@@ -27,10 +28,11 @@ const dynamodb = new AWS.DynamoDB();
         }
     });
  */
+
 /**
  * Create table.
  */
-dynamodb.createTable({
+/* dynamodb.createTable({
     TableName: "table-created-using-sdk",
     AttributeDefinitions: [
         {
@@ -57,6 +59,23 @@ dynamodb.createTable({
         WriteCapacityUnits: 1
     }
 }, (err, data)=>{
+    if(err) {
+        console.log(err);
+    } else {
+        console.log(JSON.stringify(data, null, 2));
+    }
+}); */
+
+/**
+ * Update table.
+ */
+dynamodb.updateTable({
+    TableName: "table-created-using-sdk",
+    ProvisionedThroughput: {
+        ReadCapacityUnits: 2,
+        WriteCapacityUnits: 1
+    }
+}, (err, data) => {
     if(err) {
         console.log(err);
     } else {
