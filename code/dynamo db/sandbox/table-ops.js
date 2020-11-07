@@ -6,19 +6,19 @@ const dynamodb = new AWS.DynamoDB();
 /**
  * List tables in console.
  */
-/*  dynamodb.listTables({}, (err, data)=>{
+ dynamodb.listTables({}, (err, data)=>{
     if(err) {
         console.log(err);
     } else {
         console.log(data);
     }
 }); 
- */
+
 
 /**
  * Describe tables in console.
  */
-/* dynamodb.describeTable({
+dynamodb.describeTable({
         TableName: "hands_on_notes"
     }, (err, data)=>{
         if(err) {
@@ -26,12 +26,12 @@ const dynamodb = new AWS.DynamoDB();
         } else {
             console.log(JSON.stringify(data, null, 2));
         }
-    }); */
+    });
 
 /**
  * Create table.
  */
-/* dynamodb.createTable({
+dynamodb.createTable({
     TableName: "table-created-using-sdk",
     AttributeDefinitions: [
         {
@@ -64,12 +64,12 @@ const dynamodb = new AWS.DynamoDB();
         console.log(JSON.stringify(data, null, 2));
     }
 }); 
-*/
+
 
 /**
  * Update table.
  */
-/* dynamodb.updateTable({
+dynamodb.updateTable({
     TableName: "table-created-using-sdk",
     ProvisionedThroughput: {
         ReadCapacityUnits: 2,
@@ -82,7 +82,7 @@ const dynamodb = new AWS.DynamoDB();
         console.log(JSON.stringify(data, null, 2));
     }
 }); 
-*/
+
 
 /**
  * Delete table.
