@@ -20,6 +20,7 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - Passing Params, Query Strings, Access Path
     - Deploy Lambda Functions
     - Serverless Image Resizing using Lambda and S3
+    - Lambda Versions, Alias
     
 ![serverless-image-resize](https://user-images.githubusercontent.com/26769575/98078048-516e2500-1e97-11eb-9132-e253de3f3a76.png)
 
@@ -35,6 +36,7 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - Client SDK Generation
     - API Documentation
     - Creating & Passing API Keys & Usage Plans
+    - Stage Variables
     
 ![api-gateway-create](https://user-images.githubusercontent.com/26769575/98260341-38ee2f80-1fa9-11eb-91a1-300680d4897a.JPG)
 
@@ -42,6 +44,7 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
 
     - DynamoDB RCU, WCU
     - Partitions and Indexes
-
-
+    - CRUD operations on DynamoDB
+    - DynamoDB using AWS SDK
+    
 (Ongoing project...)    
