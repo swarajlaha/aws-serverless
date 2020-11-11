@@ -38,6 +38,22 @@ _NOTE:_ If a lamba function fails, it retries for two times, if it was invoked a
 
 ![lambdadesigner](https://user-images.githubusercontent.com/26769575/98816533-d1bff780-244e-11eb-8fa5-e8636e56ca3b.JPG)
 
+**Testing Retry Behavior and DLQs in AWS Lambda**
+
+1. On the **SNS Console**, publish a messsage.
+2. Back in Lambda, click **Monitoring -> View Logs in CloudWatch** and choose the latest log stream.
+3. After 2 reties Lambda should consider it as a DLQ. Now check this in SQS, for messages available.
+
+![sqsmsgavailable](https://user-images.githubusercontent.com/26769575/98817658-70992380-2450-11eb-9237-190e7745cac1.JPG)
+
+4. Select the queue and **View/Receive Messages** and **Poll** for messages.
+
+
+![receivemsgs](https://user-images.githubusercontent.com/26769575/98817832-bd7cfa00-2450-11eb-9859-ed49c06380cc.JPG)
+
+![msgbody](https://user-images.githubusercontent.com/26769575/98817974-f1f0b600-2450-11eb-8537-9ad3e9d94f3f.JPG)
+
+
 
 
 
