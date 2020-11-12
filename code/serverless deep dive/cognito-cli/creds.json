@@ -1,0 +1,9 @@
+{   
+    "UserPoolId": "ap-south-1_CwKADm9i7",
+    "ClientId": "7n5pk1tlhdje5uh89nqv72ipa8",
+    "AuthFlow": "ALLOW_USER_SRP_AUTH",
+    "AuthParameters": {
+        "USERNAME": "swaraj",
+        "PASSWORD": "password"
+    }
+}
