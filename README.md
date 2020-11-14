@@ -23,6 +23,9 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - Lambda Versions, Alias
     - Traffic shifting & Canary Deployment
     - KMS Encrytion
+    - Set up Lambda DLQ using SQS, SNS
+    - Dynamic Lambda Handlers
+    - Control API Gateway access using IAM Roles, Policies, Resource Policies, Lambda Authorizers, Cognito User Pools
     
 ![serverless-image-resize](https://user-images.githubusercontent.com/26769575/98078048-516e2500-1e97-11eb-9132-e253de3f3a76.png)
 
@@ -48,6 +51,6 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - Partitions and Indexes
     - CRUD operations on DynamoDB
     - DynamoDB using AWS SDK
-    - 
+    - DynamoDB Streams
     
 (Ongoing project...)    
