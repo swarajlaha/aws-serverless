@@ -17,7 +17,7 @@ const processImageMeta = async (images) => {
                     break;
                 
                 case 'resized':
-                    thumbnail = `${image.resized.region}|${image.resized.bucket}|${image.resized.key}`;
+                    thumbnail = `${image.thumbnail.region}|${image.thumbnail.bucket}|${image.thumbnail.key}`;
                     break;
                     
                 default:
