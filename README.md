@@ -53,4 +53,12 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - DynamoDB using AWS SDK
     - DynamoDB Streams
     
+5. **AWS Step Functions**
+    - Creating State Machines (using ASL)
+    - Adding States in Step Functions
+    - Invoking State Machine with API Gateway, CloudWatch, SDK
+    - Image Processing Project - Using Step Functions, Lambda, DynamoDB, S3
+    
+![sf](https://user-images.githubusercontent.com/26769575/99347347-ea039c80-28bc-11eb-8402-dc4190af6015.JPG)
+
 (Ongoing project...)    
