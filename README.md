@@ -70,4 +70,13 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     
 ![samresources](https://user-images.githubusercontent.com/26769575/99364963-a9b41680-28dc-11eb-8f91-1e7ba6075b1e.JPG)
 
+7. **Development with Serverless Framework**
+    - Creating Serverless Application using Serverless Framework
+    - Testing Lambda Functions Locally with Serverless Framework
+    - Deploying with Serverless Framework
+    - Creating APIs with Serverless Framework
+    - VPC Configuration for Lambda and API Gateway
+    - Serverless Plugins
+    - Accessing CloudWatch Logs using Serverless Framework
+
 (Ongoing project...)    
