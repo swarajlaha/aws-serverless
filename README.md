@@ -61,4 +61,13 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     
 ![sf](https://user-images.githubusercontent.com/26769575/99347347-ea039c80-28bc-11eb-8402-dc4190af6015.JPG)
 
+6. **AWS Serverless Application Model (SAM)**
+    - Creating Lambda Functions, API Gateways, S3 Buckets using SAM Template
+    - Packaging and Deploying with SAM Template and CloudFormation
+    - Working with AWS SAM CLI
+    - Running Lambda Functions, API Gateways locally using SAM CLI
+    - Creating Serverless REST API using SAM
+    
+![samresources](https://user-images.githubusercontent.com/26769575/99364963-a9b41680-28dc-11eb-8f91-1e7ba6075b1e.JPG)
+
 (Ongoing project...)    
