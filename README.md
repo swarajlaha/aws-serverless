@@ -78,5 +78,12 @@ AWS Serverless with AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SA
     - VPC Configuration for Lambda and API Gateway
     - Serverless Plugins
     - Accessing CloudWatch Logs using Serverless Framework
+    
+8. **AWS CI/CD**
+    - AWS CodeCommit for Source Control
+    - Defining CodeBuild using _buildspec.yml_ to Build and Test
+    - AWS CodePipeline for Continuous Delivery and Automation
+    
+![codepipeline](https://user-images.githubusercontent.com/26769575/99695323-737cbf80-2ab3-11eb-9658-d0d4e8d5c42e.JPG)
 
 (Ongoing project...)    
