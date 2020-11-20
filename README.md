@@ -1,7 +1,7 @@
 ![LogoAWS](https://user-images.githubusercontent.com/26769575/95014766-a7686680-0666-11eb-8ead-99fc25305a92.png)
 
 # aws-serverless
-POC and hands-on for the usage of several AWS Serverless using- AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SAM, the Serverless Framework, CICD &amp; more.
+POC and hands-on for deep understanding and usage of several AWS Serverless services, like- AWS Lambda, API Gateway, Amazon DynamoDB, Step Functions, SAM, the Serverless Framework, CICD &amp; more.
 
 ### What all has been done here:
 
